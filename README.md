@@ -226,9 +226,10 @@ and size.
 | **Twelve Data** | 8 req/min, 800/day | Yes (free) | Broad global coverage, simple REST. |
 | **Alpha Vantage** | 5 req/min, 25/day (current limits — verify) | Yes (free) | Good for indicators-as-a-service, but low daily cap for polling loops. |
 | **Polygon.io** | Delayed data, 5 req/min | Yes (free) | Real-time/full history requires paid tier. |
-| **Tiingo** | EOD + limited intraday | Yes (free) | Strong for EOD backtesting datasets. |
+| **Tiingo** | 50 requests/hour (1,000 daily) EOD + limited intraday | Yes (free) | Strong for EOD backtesting datasets. |
 | **Financial Modeling Prep** | Limited daily calls | Yes (free) | Good for fundamentals alongside price data. |
 | Google Finance | No public API | — | `GOOGLEFINANCE()` only works inside Google Sheets, not callable from a script. |
+| Marketstack | 100 requests per month | reset API | Simple data queries or basic widgets |
 
 
 
