@@ -220,7 +220,7 @@ and size.
 
 | Provider | Free tier | Key needed | Notes |
 |---|---|---|---|
-| **Alpaca Market Data** | Real-time IEX feed, ~7 yrs history, generous rate limit | Yes (free) | Used by this project. IEX ≈ 2% of consolidated volume — fine for signals, not for large/illiquid names. |
+| **Alpaca Market Data** | 200 requests per minute, Real-time IEX feed, ~7 yrs history, generous rate limit | Yes (free) | Used by this project. IEX ≈ 2% of consolidated volume — fine for signals, not for large/illiquid names. |
 | **yfinance (Yahoo Finance)** | Delayed/EOD + decent intraday | No | Unofficial wrapper around Yahoo's endpoints; free but no SLA, can break/rate-limit without notice. Used here as the no-key fallback. |
 | **Finnhub** | Real-time US stock quotes, 60 calls/min | Yes (free) | Good secondary quote source. |
 | **Twelve Data** | 8 req/min, 800/day | Yes (free) | Broad global coverage, simple REST. |
