@@ -97,7 +97,10 @@ Either way you land on a numbered menu:
    the risk engine sizes and gates everything against.
 3. Option **6** — enter your watchlist (comma-separated tickers). It's saved
    so you don't re-type it every time.
-4. Option **1** or **2** — run a scan, or start continuous watching.
+
+        #Sample list# AAPL, MSFT, SPY, QQQ, NVDA, TSLA, AMD, GOOGL, AMZN, META, AEMD, CAPR, MOVE, SSM, AVGO, NFLX, PLTR, CRM, COIN, MSTR, SMCI, ARM, SOFI, RIVN, XLK, XLF, XLE, SMH, IWM, INTC, MU, JPM, BAC, WMT, COST, ORCL, UBER, IONQ, TSM, LLY, XOM, HOOD
+   
+5. Option **1** or **2** — run a scan, or start continuous watching.
 
 Forgot how something works? **Option 13** walks through every menu item and
 the key concepts (regime, signal fusion, risk status) in plain English.
